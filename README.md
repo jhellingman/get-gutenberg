@@ -1,4 +1,4 @@
-== get-gutenberg ==
+# get-gutenberg
 
 This project contains a number of Perl/.sh/.bat scripts to download the complete
 set of Project Gutenberg public domain ebooks to your computer (using rsync).
@@ -15,7 +15,7 @@ Another script will convert all .zip files to .7z compressed archives, which
 saves about 6% on the total size. Again, the convertion can be re-run
 to update the re-compressed collection.
 
-== Future plans ==
+## Future plans
 
 Add code to turn chunks of this collection (of, lets say, 1000 books) into
 torrents, and seed them.
