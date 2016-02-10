@@ -1,0 +1,1 @@
+C:\Bin\cwRsync\bin\rsync.exe -av -P --del --bwlimit=500 --exclude="old/" --include="*/" --exclude="*-page-images.zip" --exclude="*-mp3.zip" --exclude="*-spx.zip" --exclude="*-m4b.zip" --exclude="*-ogg.zip" --include="*.zip" --exclude="*" --progress ftp@ftp.ibiblio.org::gutenberg gutenberg

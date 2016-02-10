@@ -1,0 +1,1 @@
+/usr/local/bin/rsync -av -P --del --bwlimit=100 --exclude="old/" --include="*/" --exclude="*-page-images.zip" --exclude="*-mp3.zip" --exclude="*-spx.zip" --exclude="*-m4b.zip" --exclude="*-ogg.zip" --include="*.zip" --exclude="*" --bwlimit=300 --info=progress2 ftp@ftp.ibiblio.org::gutenberg gutenberg
